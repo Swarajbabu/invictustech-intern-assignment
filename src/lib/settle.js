@@ -43,6 +43,13 @@ export function suggestSettlements(balances, members) {
       c.amount -= d.amount;
       i += 1;
     } else {
+      transfers.push({
+        from: d.id,
+        to: c.id,
+        fromName: nameOf(d.id),
+        toName: nameOf(c.id),
+        amount: d.amount,
+      });
       i += 1;
       j += 1;
     }

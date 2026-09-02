@@ -17,11 +17,11 @@ export default function BalancesPanel({ members, balances }) {
         const bal = Number(balances[m.id] || 0);
         let label = "settled up";
         let cls = "settled";
-        if (bal > 0.005) {
-          label = `owes ${formatMoney(bal)}`;
+        if (bal < -0.005) {
+          label = `owes ${formatMoney(-bal)}`;
           cls = "owe";
-        } else if (bal < -0.005) {
-          label = `is owed ${formatMoney(-bal)}`;
+        } else if (bal > 0.005) {
+          label = `is owed ${formatMoney(bal)}`;
           cls = "owed";
         }
         return (

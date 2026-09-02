@@ -12,7 +12,7 @@ export default function SummaryCards({ members, expenses, onAddMember }) {
         .reduce((s, e) => s + Number(e.amount), 0);
       return { id: m.id, name: m.name, paid };
     });
-  }, [expenses]);
+  }, [expenses, members]);
 
   const spent = totalSpent(expenses);
 
