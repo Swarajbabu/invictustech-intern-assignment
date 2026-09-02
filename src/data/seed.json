@@ -1,0 +1,102 @@
+{
+  "groupName": "Goa weekend",
+  "members": [
+    { "id": 1, "name": "Aisha Khan", "color": "#5b4b8a" },
+    { "id": 2, "name": "Ben Okonkwo", "color": "#1f6f64" },
+    { "id": 3, "name": "Carlos Mendes", "color": "#b85c38" },
+    { "id": 4, "name": "Diya Patel", "color": "#3d5a80" }
+  ],
+  "expenses": [
+    {
+      "id": "e1",
+      "description": "Groceries",
+      "amount": 100,
+      "paidBy": 1,
+      "splitType": "equal",
+      "splitWith": [1, 2, 3],
+      "date": "2026-03-12",
+      "category": "Food"
+    },
+    {
+      "id": "e2",
+      "description": "Uber to airport",
+      "amount": 60,
+      "paidBy": 4,
+      "splitType": "equal",
+      "splitWith": [1, 2],
+      "date": "2026-03-10",
+      "category": "Travel"
+    },
+    {
+      "id": "e3",
+      "description": "Airbnb deposit",
+      "amount": 240,
+      "paidBy": 2,
+      "splitType": "equal",
+      "splitWith": [1, 2, 3],
+      "date": "2026-03-08",
+      "category": "Stay"
+    },
+    {
+      "id": "e4",
+      "description": "Dinner by the beach",
+      "amount": 80,
+      "paidBy": 3,
+      "splitType": "equal",
+      "splitWith": [1, 2, 3, 4],
+      "date": "2026-03-14",
+      "category": "Food"
+    },
+    {
+      "id": "e5",
+      "description": "Museum tickets",
+      "amount": 48,
+      "paidBy": 1,
+      "splitType": "equal",
+      "splitWith": [1, 4],
+      "date": "2026-03-11",
+      "category": "Fun"
+    },
+    {
+      "id": "e6",
+      "description": "Coffee",
+      "amount": 16,
+      "paidBy": 2,
+      "splitType": "equal",
+      "splitWith": [2, 3],
+      "date": "2026-03-13",
+      "category": "Food"
+    },
+    {
+      "id": "e7",
+      "description": "Train tickets",
+      "amount": 90,
+      "paidBy": 3,
+      "splitType": "equal",
+      "splitWith": [1, 2, 3],
+      "date": "2026-03-09",
+      "category": "Travel"
+    },
+    {
+      "id": "e8",
+      "description": "Board game",
+      "amount": 36,
+      "paidBy": 4,
+      "splitType": "equal",
+      "splitWith": [1, 2, 3, 4],
+      "date": "2026-03-15",
+      "category": "Fun"
+    },
+    {
+      "id": "e9",
+      "description": "Wine",
+      "amount": 20,
+      "paidBy": 2,
+      "splitType": "percent",
+      "splitWith": [1, 2, 3],
+      "percents": { "1": 33.33, "2": 33.33, "3": 33.34 },
+      "date": "2026-03-07",
+      "category": "Food"
+    }
+  ]
+}
